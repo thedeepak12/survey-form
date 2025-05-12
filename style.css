@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: #f4f7f8;
+    color: #333333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    margin-bottom: 30px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+#title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 1rem;
+    color: #666666;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label, p {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.form-control, .input-textarea {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+.form-control:focus, .input-textarea:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+.input-radio, .input-checkbox {
+    margin-right: 10px;
+    transform: scale(1.1);
+    vertical-align: middle;
+}
+
+.input-textarea {
+    height: 120px;
+}
+
+.clue {
+    font-weight: normal;
+    font-size: 0.9rem;
+    color: #888888;
+}
+
+.submit-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007BFF;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
